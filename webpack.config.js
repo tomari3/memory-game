@@ -5,7 +5,7 @@ module.exports = {
   devServer: {
     contentBase: path.join(__dirname, "public"),
   },
-  entry: "./src/app.js",
+  entry: "./src/index.js",
   module: {
     rules: [
       {
